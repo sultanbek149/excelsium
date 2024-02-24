@@ -729,6 +729,65 @@
         .countdown {
             margin-bottom: 10px;
         }
+
+        @media (max-width: 1680px) {
+            .tokenomics_section .content_wrap {
+                align-items: start;
+            }
+        }
+
+        .texteco {
+            font-size: 50px;
+            font-weight: 600;
+            padding-top: 60px;
+        }
+
+        .y {
+            color: hsl(52, 100%, 50%);
+            font-weight: 600;
+        }
+
+        @media (max-width: 1000px) {
+            .texteco {
+                font-size: 40px;
+            }
+        }
+
+        @media (max-width: 820px) {
+            .tokenomics_section .content_wrap {
+                flex-direction: column;
+            }
+
+            .y {
+                padding-left: 20px;
+            }
+        }
+
+        @media (max-width: 650px) {
+            .texteco {
+                font-size: 30px;
+            }
+        }
+
+        @media (max-width: 650px) {
+            .texteco {
+                font-size: 25px;
+            }
+
+            .y {
+                padding-left: 10px;
+            }
+        }
+
+        @media (max-width: 375px) {
+            .texteco {
+                font-size: 20px;
+            }
+
+            .y {
+                padding-left: 10px;
+            }
+        }
     </style>
 
     <script defer src="app.js"></script>
@@ -1275,6 +1334,10 @@
                     </p>
                 </div>
                 <div class="content_wrap">
+                    <div class="block toknomiescontent_block texteco">
+                        <!-- <img src="https://kelexo.com/wp-content/uploads/2024/01/Group-224.png" alt="" class="image"> -->
+                        Token supply: <br class="hbreak"> <span class="y">1.000.000</span>
+                    </div>
                     <div class="block toknomiescontent_block">
                         <ul class="tokenomics_list">
                             <li> <span class="boxes"></span>
@@ -1306,9 +1369,6 @@
                                 <p>- Community Airdrop</p>
                             </li>
                         </ul>
-                    </div>
-                    <div class="block tokenomiesimage_block">
-                        <img src="https://kelexo.com/wp-content/uploads/2024/01/Group-224.png" alt="" class="image">
                     </div>
                 </div>
             </div>
